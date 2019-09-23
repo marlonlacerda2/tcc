@@ -1,22 +1,22 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RhomePage } from './rhome.page';
+import { Rhome2Page } from './rhome2.page';
 
-describe('RhomePage', () => {
-  let component: RhomePage;
-  let fixture: ComponentFixture<RhomePage>;
+describe('Rhome2Page', () => {
+  let component: Rhome2Page;
+  let fixture: ComponentFixture<Rhome2Page>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RhomePage ],
+      declarations: [ Rhome2Page ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RhomePage);
+    fixture = TestBed.createComponent(Rhome2Page);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

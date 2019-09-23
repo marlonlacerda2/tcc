@@ -22,9 +22,9 @@ export class AppComponent {
       icon: 'list'
     },
     {
-      title: 'Rhome',
-      url: '/rhome',
-      icon: ''
+      title: 'rhome2',
+      url: '/rhome2',
+      icon: ' '
     }
   ];
 
