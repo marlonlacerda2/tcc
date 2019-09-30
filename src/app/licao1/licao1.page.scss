@@ -1,0 +1,21 @@
+ion-content {
+    --background: url('src/assets/images/wp5.jpeg') no-repeat center/cover fixed;
+}
+.background{
+    background: url('src/assets/images/wp5.jpeg') no-repeat center/cover fixed; 
+}
+ion-slide{
+    display: block;
+}
+.img-padding{
+    padding: 40px 40px 20px 40px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom:100px;
+}
+.center {
+    margin-bottom:10px;
+}

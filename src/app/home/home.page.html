@@ -1,12 +1,4 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-toolbar>
 </ion-header>
 
 <ion-content >
@@ -15,10 +7,14 @@
     </ion-card>
     <div class ="center ">
     <ion-button  class="ion-margin-bottom" shape="round"  href="/rhome2">
-    <ion-icon slot="start" name="logo-game-controller-a"></ion-icon>
+    <ion-icon slot="end" name="logo-game-controller-a"></ion-icon>
     Jogar
     </ion-button><br>
-    <ion-button class="ion-margin-bottom" shape="round"  href="/rhome2">Configurações</ion-button><br>
-    <ion-button class="ion-margin-bottom" shape="round"  href="/rhome2">Sair</ion-button><br>
+    <ion-button class="ion-margin-bottom" shape="round"  href="/rhome2">
+    <ion-icon slot="end" name="cog"></ion-icon>
+    Opções</ion-button><br>
+    <ion-button (click)="sair()" class="ion-margin-bottom" shape="round"  color="danger" href="/rhome2">
+    <ion-icon slot="end" name="close-circle"></ion-icon>
+    Sair</ion-button><br>
     </div>
 </ion-content>

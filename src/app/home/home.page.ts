@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+ sair(){
+  navigator['myappp'].exitApp();
+ }
+
 }
