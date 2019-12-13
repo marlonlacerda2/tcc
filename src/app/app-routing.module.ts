@@ -17,7 +17,8 @@ const routes: Routes = [
   },
   { path: 'rhome2', loadChildren: './rhome2/rhome2.module#Rhome2PageModule' },
   { path: 'fase1', loadChildren: './fase1/fase1.module#Fase1PageModule' },
-  { path: 'licao1', loadChildren: './licao1/licao1.module#Licao1PageModule' }
+  { path: 'licao1', loadChildren: './licao1/licao1.module#Licao1PageModule' },
+  { path: 'q1', loadChildren: './q1/q1.module#Q1PageModule' }
 ];
 
 @NgModule({

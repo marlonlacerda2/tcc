@@ -4,12 +4,16 @@
     overflow: hidden;
 }
 
-ion-content {
-    --background: url('src/assets/images/wp5.jpeg') no-repeat center/cover fixed;
-}
+.bg-class{
+    --background:linear-gradient(to bottom, #b3e5fc, #91d3f6, #6ec1f0, #48aeeb, #039be5);
+    }
 
 .center {
     text-align: center;
     margin-top: 50px;
     line-height: 40px;
+    
+}
+.border{
+    --border-color:white;
 }

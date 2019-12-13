@@ -3,10 +3,10 @@
     overflow: hidden;
 }
 
-ion-content {
-    --background: url('src/assets/images/wp5.jpeg') no-repeat center/cover fixed;
-}
+
 
 .direita {
     text-align: right;
 }
+.bg-class{
+    --background: linear-gradient(to right top, #2196f3, #4a8dff, #7c7fff, #af68ff, #e040fb);}
